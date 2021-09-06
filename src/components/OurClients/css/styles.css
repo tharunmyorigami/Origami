@@ -1,0 +1,52 @@
+.ourClientsHeadingDiv{
+    text-align: center;
+}
+
+.ourClientsHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D52D34;
+}
+
+.ourClientsSubHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #263238;
+}
+
+.ourClientsProjectsRow{
+    display: flex !important;
+}
+
+.ourClientsProjectsCol{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.ourClientsProjectsDiv{
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 50px;
+    overflow: hidden;
+    width: 320px;
+    height: 384px;
+}
+
+.projectDescription{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}

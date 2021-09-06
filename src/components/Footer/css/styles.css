@@ -1,0 +1,148 @@
+.footerRow{
+    margin: unset !important;
+    padding: 72px 79px 0 80px;
+    background-color: #121212;
+    color: #FFFFFF;;
+}
+
+.footerHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.colorRedText{
+    color: #D52D34;
+}
+
+.buildProductText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+
+.getInTouchBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    width: 175px !important;
+    height: 59px;
+    background: linear-gradient(260.56deg, #FF4048 -15.24%, #BD151D 135.56%);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    border-radius: 40px !important;
+    box-shadow: unset !important;
+    border: unset !important;
+}
+
+
+.servicesRow{
+    margin-top: 102px !important;
+}
+
+.servicesNames{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contactUsRow{
+    margin-top: 119px !important;
+}
+
+.footerHeadings{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+}
+
+.contactDescription{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.addressText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.origamiText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF !important;
+}
+
+.logoSubText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.upArrowRed{
+    text-align: justify;
+    text-align-last: end;
+    transform: translate(0, +35%);
+}
+
+
+.footerLine{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-top: 60px !important;
+}
+
+.copyRightDiv{
+    margin: 40px 0px 40px 64px !important;
+    display: block;
+}
+
+.copyRightText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7) !important;
+    float: right;
+    margin-right: 10% !important;
+    display: flex;
+}
+
+.loveText{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.7) !important; 
+}

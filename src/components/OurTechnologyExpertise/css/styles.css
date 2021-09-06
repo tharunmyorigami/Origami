@@ -1,0 +1,60 @@
+.ourTechnologyExpertiseRow{
+    margin-top: 140px !important;
+}
+
+.ourTechnologyExpertiseIconsRow{
+    margin-top: 48px !important;
+}
+
+.ourTechnologyExpertiseHeading{
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 16px;
+    line-height: 24px;
+    color      : #D52D34;
+    display    : -webkit-inline-box;
+}
+
+.ourTechnologyExpertiseHeading hr{
+    width           : 4%;
+    height          : 1px !important;
+    background-color:  #D52D34;
+    opacity         : 1.0;
+    border-radius   : 4px;
+    margin-left     : 12px;
+    margin-top      : 12px;
+    color           :  #D52D34;
+}
+
+.technologyDescription{
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 600;
+    font-size  : 40px;
+    line-height: 60px;
+    color      : #263238;
+
+}
+
+.technologydiv{
+    margin-bottom: 60px !important;
+}
+
+.ourExpertiseHeadings{
+    font-family: 'Poppins' !important;
+    font-style : normal !important;
+    font-weight: 600 !important;
+    font-size  : 20px !important;
+    line-height: 30px !important;
+    color      : #222222 !important;
+}
+
+.technologydiv p{
+    font-family: 'Poppins';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 18px;
+    line-height: 36px;
+    color      : #696969;
+}

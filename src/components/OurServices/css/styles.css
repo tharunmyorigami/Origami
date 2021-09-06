@@ -1,0 +1,55 @@
+.ourServicesRow{
+    margin-top: 120px !important;
+}
+
+.ourServiceText{  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #D52D34;
+}
+
+.ourServiceSubHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #263238;
+}
+
+.ourServiceDescptionCol{
+    margin-top: 40px !important;
+    display: flex;
+}
+
+.ourServiceDescptionCol hr{
+    width: 15%;
+    height: 6px !important;
+    background-color: #D52D34;
+    opacity: 1.0;
+    border-radius: 4px;
+    margin: 15px ;
+    color: #D52D34;
+}
+
+.ourServiceHeadings{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #263238;
+}
+
+.ourServiceDescription{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: justify;
+}
