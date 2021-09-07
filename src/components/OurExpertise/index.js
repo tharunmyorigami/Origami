@@ -17,38 +17,38 @@ const OurExpertise=()=>{
                     <Col md={2}>
                         <div className="iconDiv">
                             <LoveHeart/>
-                            <p>Fantasy Gaming</p>
+                            <p className="iconNames">Fantasy Gaming</p>
                         </div>
                     </Col>
 
                     <Col md={2}>
                         <div className="iconDiv">
                             <LoveHeart/>
-                            <p>Healthcare</p>
+                            <p className="iconNames">Healthcare</p>
                         </div>
                     </Col>
                     <Col md={2}>
                          <div className="iconDiv">
                             <LoveHeart/>
-                            <p>Analytics</p>
+                            <p className="iconNames">Analytics</p>
                         </div>
                     </Col>
                     <Col md={2}>
                         <div className="iconDiv">
                             <LoveHeart/>
-                            <p>Fintech</p>
+                            <p className="iconNames">Fintech</p>
                         </div>
                     </Col>
                     <Col md={2}>
                         <div className="iconDiv">
                             <PlayButton/>
-                            <p>Entertainment & Media</p>
+                            <p className="iconNames">Entertainment & Media</p>
                         </div>
                     </Col>
                     <Col md={2}>
                         <div className="iconDiv">
                             <LoveHeart/>
-                            <p>Ecommerce & Marketplace</p>
+                            <p className="iconNames">Ecommerce & Marketplace</p>
                         </div>
                     </Col>
                 </Row>

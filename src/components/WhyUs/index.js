@@ -7,7 +7,9 @@ const WhyUs=()=>{
                 <Col md={8}>
                     <p className="whyUsHeading">Why us?</p>
                     <p className="pillarText">Four pillars of <span className="colorText">Origami</span></p>
-                    <p className="pillarSubHeading">We highly appreciate working with innovative and ambitious entrepreneurs. This is why we are our clients favourites.</p>
+                    <div className="pillarSubHeadingDiv">
+                        <p className="pillarSubHeading">We highly appreciate working with innovative and ambitious entrepreneurs. This is why we are our clients favourites.</p>
+                    </div>
                 </Col>
                 <Col md={4}>
                     <Row>

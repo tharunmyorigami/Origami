@@ -3,50 +3,46 @@
 }
 
 .ourClientsHeading{
-    font-family: 'Poppins';
-    font-style: normal;
+    font-style : normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 24px;
-    color: #D52D34;
+    color      : #D52D34;
 }
 
 .ourClientsSubHeading{
-    font-family: 'Poppins';
-    font-style: normal;
+    font-style : normal;
     font-weight: 600;
-    font-size: 40px;
+    font-size  : 40px;
     line-height: 60px;
-    color: #263238;
-}
-
-.ourClientsProjectsRow{
-    display: flex !important;
+    color      : #263238;
 }
 
 .ourClientsProjectsCol{
-    display: flex;
-    justify-content: space-evenly;
-    overflow: hidden;
+    display        : flex;
 }
 
 .ourClientsProjectsDiv{
-    background: #FFFFFF;
-    border: 2px solid rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
+    width        : 320px;
+    background   : #FFFFFF;
+    border       : 2px solid rgba(0, 0, 0, 0.12);
+    box-sizing   : border-box;
     border-radius: 10px;
-    margin-right: 50px;
-    overflow: hidden;
-    width: 320px;
-    height: 384px;
+    margin-right : 50px;
+    overflow     : hidden;
+    text-align   : center;
+}
+
+.ourClientsProjectsDiv img{
+    margin-top: 40px;
 }
 
 .projectDescription{
-    font-family: 'Poppins';
-    font-style: normal;
+    font-style : normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size  : 16px;
     line-height: 32px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.7);
+    text-align : center;
+    color      : rgba(0, 0, 0, 0.7);
+    margin     : 40px  35px 29px;
 }

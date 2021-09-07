@@ -8,7 +8,6 @@
 }
 
 .ourExpertiseHeading{
-    font-family: 'Poppins';
     font-style : normal;
     font-weight: 600;
     font-size  : 16px;
@@ -17,7 +16,6 @@
 }
 
 .ourExpertiseSubHeading{
-    font-family: 'Poppins';
     font-style : normal;
     font-weight: 600;
     font-size  : 40px;
@@ -26,7 +24,6 @@
 }
 
 .ourExpertiseDiv p{
-    font-family  : 'Poppins';
     font-style   : normal;
     text-align   : center;
     font-weight  : 400;
@@ -40,4 +37,14 @@
 
 .ourExpertiseRow .iconDiv{
     text-align: center;
+}
+
+.ourExpertiseRow  .iconNames{
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 18px;
+    line-height: 30px;
+    text-align : center;
+    color      : #000000;
+    margin-top : 17px;
 }

@@ -1,8 +1,7 @@
 .digitalProductBannerRow{
-    margin-bottom: 60px;
+    margin: 83px 108px 60px !important;
 }
 .digitalProductBannerHeading{
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
@@ -15,7 +14,6 @@
 }
 
 .digitalProductBannerDescription{
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -25,10 +23,19 @@
 }
 
 .somethingTogetherText{
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #D52D34;
+    display: flex;
+}
+
+.rightArrowDiv{
+    width: 22px !important;
+    height: 22px;
+    color: #D52D34;
+    transform : translate(0, +35%); 
+    margin-left: 10px;
+
 }

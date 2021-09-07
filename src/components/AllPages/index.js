@@ -10,7 +10,6 @@ import "./css/styles.css"
 const AllPages =()=>{
     return(
             <div className="allPagesDiv">
-                <DigitalProductBanner />
                 <OurMotto />
                 <OurServices />
                 <WhyUs />

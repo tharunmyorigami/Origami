@@ -3,11 +3,10 @@
     padding-bottom: 24px;
     background    : #FFFFFF;
     box-shadow    : 0px 0px 16px rgba(0, 0, 0, 0.08);
-    margin        : unset !important;
+    /* margin        : unset !important; */
 }
 
 .origamiParaText{
-    font-family : 'Poppins';
     font-style  : normal;
     font-weight : 600;
     font-size   : 18px;
@@ -22,15 +21,17 @@
     height: 18px;
     color : #D52D34;
 }
+
+
+
 .menuNames{
-    font-family : 'Poppins';
     font-style  : normal;
     font-weight : 500;
     font-size   : 16px;
     line-height : 24px;
-    color       : #000000;
-    margin-right: 40px;
-    transform   : translate(0, +35%);
+    color       : #000000 !important;
+    margin-right: 30px;
+    /* transform   : translate(0, +35%); */
 }
 
 .startProjectBtn{
@@ -39,15 +40,34 @@
     flex-direction : row;
     justify-content: center;
     align-items    : center;
-    padding        : 8px 24px !important;
+    padding        : 8px 19px !important;
     background     : linear-gradient(0deg, #000000, #000000), linear-gradient(260.56deg, #FF4048 -15.24%, #BD151D 135.56%);
     border-radius  : 40px !important;
     box-shadow     : unset !important;
     border         : unset !important;
-    font-family    : 'Poppins';
     font-style     : normal;
     font-weight    : 600 !important;
     font-size      : 16px !important;
     line-height    : 24px !important;
     color          : #FFFFFF !important;
 }
+
+.navbar-expand-lg .navbar-nav {
+    margin-left: 27% !important;
+}
+
+@media (max-width: 991px){
+    .navbar-toggler{
+        border: unset !important;
+        box-shadow: unset !important;
+    }
+
+    .navbar-light .navbar-toggler-icon{
+        background-image: url(../../../assets/svgs/Close.svg) !important;   
+    }
+    .navbar-light .navbar-toggler.collapsed .navbar-toggler-icon{
+        background-image: url(../../../assets/svgs/Menu.svg) !important;
+
+    }
+}
+

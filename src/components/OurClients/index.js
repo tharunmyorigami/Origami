@@ -3,7 +3,7 @@ import "./css/styles.css";
 
 const OurClients=()=>{
 
-    const companyNames=[1,2,3,4]
+    const companyNames=[1,2,3]
     return(
         <>
             <Row className="ourClientsRow">
@@ -18,8 +18,8 @@ const OurClients=()=>{
                     <Col className="ourClientsProjectsCol">
                         {(companyNames || [])?.map(() => {
                             return ( 
-                                <div className="ourClientsProjectsDiv col-sm-3" >
-                                    <img src="holder.js/100px180" />
+                                <div className="ourClientsProjectsDiv" >
+                                    <img src="holder.js/100px180"/>
                                     <p className="projectDescription">Capitalizing on data is a straight path to revealing actionable insights on operations, customers, and company products. BI and Analytics define data-driven decisions for performance and growth.</p>
                                 </div>
                              )
