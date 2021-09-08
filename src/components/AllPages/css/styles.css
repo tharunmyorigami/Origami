@@ -2,3 +2,10 @@
     margin-left: 120px;
     margin-right: 120px;
 }
+
+@media only screen and (max-width: 600px) and (min-width: 280px)  {
+    .allPagesDiv{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

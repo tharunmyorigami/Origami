@@ -39,3 +39,33 @@
     margin-left: 10px;
 
 }
+
+@media only screen and (max-width: 600px) and (min-width: 280px)  {
+    .digitalProductBannerRow{
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .digitalProductBannerHeading{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .digitalProductBannerDescription{
+        font-size: 11px;
+        line-height: 28px;
+    }
+
+    .somethingTogetherText{
+        display: unset;
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .rightArrowDiv{
+        width: 17px !important;
+        height: 18px;
+        color: #D52D34;
+        transform: translate(0,0);
+        margin-left: 1px;
+    }
+}

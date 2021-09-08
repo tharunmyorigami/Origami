@@ -19,6 +19,10 @@
     color: #263238;
 }
 
+.ourServicesSecondCol{
+    margin-top: -49px !important;
+}
+
 .ourServiceDescptionCol{
     margin-top: 40px !important;
     display: flex;
@@ -32,9 +36,11 @@
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.06);
     border-radius: 6px;
     padding-top: 40px !important;
+    margin-bottom: 24px;
+    text-align: center;
 }
 
-.ourServiceDescptionDiv hr{
+/* .ourServiceDescptionDiv hr{
     width: 18%;
     height: 6px !important;
     background-color: #D52D34;
@@ -42,11 +48,12 @@
     border-radius: 4px;
     margin: 15px ;
     color: #D52D34;
-}
+} */
 
 .ourServiceDescptionDiv div{
-    margin-bottom: 36px;
+    margin-left: 24px;
     margin-right: 40px;
+    /* text-align: center; */
 }
 
 .ourServiceHeadings{

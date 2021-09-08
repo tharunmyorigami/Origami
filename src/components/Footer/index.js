@@ -4,6 +4,13 @@ import { ReactComponent as UpArrowRed } from "../../assets/svgs/UpArrowRed.svg";
 import "./css/styles.css"
 const Footer=()=>{
     const date =  new Date().getFullYear();
+    const scrollTop=()=>{
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
+    }
     return(
         <>
             <Row className="footerRow">
@@ -67,7 +74,7 @@ const Footer=()=>{
                         <p className="addressText">California 95008, US</p>
                         <p className="contactDescription">US +1 858 429 9159</p>
                     </Col>
-                    <Col className="upArrowRed"><UpArrowRed className="upArrowRed" /></Col>
+                    <Col className="upArrowRed"><UpArrowRed className="upArrowRed" onClick={()=>scrollTop()}/></Col>
                 </Row>
                 <span className="footerLine"></span>
                 <div className="copyRightDiv">
