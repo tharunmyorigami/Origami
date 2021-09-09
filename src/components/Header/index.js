@@ -21,16 +21,16 @@ const Header =()=>{
             </Row> */}
             <Navbar  expand="lg" className="HeaderRow">
                 <Container>    
-                    <Navbar.Brand href="#home"><span className="oLetter">O</span>rigami</Navbar.Brand>
+                    <Navbar.Brand href="/"><span className="oLetter">O</span>rigami</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="me-auto menuCol">
-                            <Nav.Link className="menuNames">Services</Nav.Link>
-                            <Nav.Link className="menuNames">Ecommerce</Nav.Link>
-                            <Nav.Link className="menuNames">Technology</Nav.Link>
-                            <Nav.Link className="menuNames">Staffing</Nav.Link>
-                            <Nav.Link className="menuNames">About</Nav.Link>
-                            <Nav.Link className="menuNames">Careers</Nav.Link>
+                            <Nav.Link className="menuNames" href="/Services">Services</Nav.Link>
+                            <Nav.Link className="menuNames" href="/Ecommerce">Ecommerce</Nav.Link>
+                            <Nav.Link className="menuNames" href="/Technology">Technology</Nav.Link>
+                            <Nav.Link className="menuNames" href="/Staffing">Staffing</Nav.Link>
+                            <Nav.Link className="menuNames" href="/AboutUs">About</Nav.Link>
+                            <Nav.Link className="menuNames" href="/Careers">Careers</Nav.Link>
                             <Button className="startProjectBtn">Start a Project</Button>
                         </Nav>
                     </Navbar.Collapse>
